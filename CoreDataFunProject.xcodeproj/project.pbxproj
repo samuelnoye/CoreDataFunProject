@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D56E471328C8F6FF00E75870 /* CoreDataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56E471128C8F6FF00E75870 /* CoreDataError.swift */; };
+		D56E471628C90C0B00E75870 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56E471428C90C0B00E75870 /* CollectionViewCell.swift */; };
+		D56E471728C90C0B00E75870 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D56E471528C90C0B00E75870 /* CollectionViewCell.xib */; };
 		D5C362B228C886EA007532BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C362B128C886EA007532BA /* AppDelegate.swift */; };
 		D5C362B428C886EA007532BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C362B328C886EA007532BA /* SceneDelegate.swift */; };
 		D5C362B628C886EA007532BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C362B528C886EA007532BA /* ViewController.swift */; };
@@ -16,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D56E470F28C8F4A500E75870 /* SparkUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SparkUI; path = ../SparkUI; sourceTree = "<group>"; };
+		D56E471128C8F6FF00E75870 /* CoreDataError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataError.swift; sourceTree = "<group>"; };
+		D56E471428C90C0B00E75870 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		D56E471528C90C0B00E75870 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		D5C362AE28C886EA007532BA /* CoreDataFunProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataFunProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C362B128C886EA007532BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5C362B328C886EA007532BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,9 +44,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D56E470E28C8F4A500E75870 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				D56E470F28C8F4A500E75870 /* SparkUI */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 		D5C362A528C886EA007532BA = {
 			isa = PBXGroup;
 			children = (
+				D56E470E28C8F4A500E75870 /* Packages */,
 				D5C362B028C886EA007532BA /* CoreDataFunProject */,
 				D5C362AF28C886EA007532BA /* Products */,
 			);
@@ -56,6 +72,7 @@
 		D5C362B028C886EA007532BA /* CoreDataFunProject */ = {
 			isa = PBXGroup;
 			children = (
+				D56E471128C8F6FF00E75870 /* CoreDataError.swift */,
 				D5C362B128C886EA007532BA /* AppDelegate.swift */,
 				D5C362B328C886EA007532BA /* SceneDelegate.swift */,
 				D5C362B528C886EA007532BA /* ViewController.swift */,
@@ -63,6 +80,8 @@
 				D5C362BF28C886EE007532BA /* LaunchScreen.storyboard */,
 				D5C362C228C886EE007532BA /* Info.plist */,
 				D5C362BA28C886EA007532BA /* CoreDataFunProject.xcdatamodeld */,
+				D56E471428C90C0B00E75870 /* CollectionViewCell.swift */,
+				D56E471528C90C0B00E75870 /* CollectionViewCell.xib */,
 			);
 			path = CoreDataFunProject;
 			sourceTree = "<group>";
@@ -127,6 +146,7 @@
 			files = (
 				D5C362C128C886EE007532BA /* LaunchScreen.storyboard in Resources */,
 				D5C362BE28C886EE007532BA /* Assets.xcassets in Resources */,
+				D56E471728C90C0B00E75870 /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +159,10 @@
 			files = (
 				D5C362B628C886EA007532BA /* ViewController.swift in Sources */,
 				D5C362B228C886EA007532BA /* AppDelegate.swift in Sources */,
+				D56E471628C90C0B00E75870 /* CollectionViewCell.swift in Sources */,
 				D5C362BC28C886EA007532BA /* CoreDataFunProject.xcdatamodeld in Sources */,
 				D5C362B428C886EA007532BA /* SceneDelegate.swift in Sources */,
+				D56E471328C8F6FF00E75870 /* CoreDataError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
